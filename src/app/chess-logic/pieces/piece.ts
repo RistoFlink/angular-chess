@@ -8,7 +8,7 @@ export abstract class Piece {
   }
 
   public get FENChar(): FENChar {
-    return this.FENChar;
+    return this._FENChar;
   }
 
   public get directions(): Coords[] {
